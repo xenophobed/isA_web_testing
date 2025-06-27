@@ -1,19 +1,6 @@
 {
-  "buildCommand": "npm run build",
-  "outputDirectory": ".next",
   "framework": "nextjs",
-  "regions": ["sfo1"],
-  "functions": {
-    "src/app/**/*.tsx": {
-      "runtime": "nodejs18.x"
-    }
-  },
-  "rewrites": [
-    {
-      "source": "/api/(.*)",
-      "destination": "/api/$1"
-    }
-  ],
+  "regions": ["iad1"],
   "headers": [
     {
       "source": "/(.*)",
